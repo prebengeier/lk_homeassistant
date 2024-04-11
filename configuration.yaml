@@ -1,0 +1,90 @@
+modbus:
+  - name: dongle_1
+    type: tcp
+    host: 192.168.1.117
+    port: 502
+
+    climates:
+      - name: Stue
+        unique_id: climate_sov_v
+        slave: 1
+        address: 1001
+        input_type: input
+        data_type: int16
+        target_temp_register: 1002
+        precision: 1
+        scale: 0.01
+        max_temp: 35
+        min_temp: 7
+        temp_step: 1
+        temperature_unit: C
+
+      - name: Kjøkken
+        unique_id: climate_sov_k
+        slave: 1
+        address: 1101
+        input_type: input
+        data_type: int16
+        target_temp_register: 1102
+        precision: 1
+        scale: 0.01
+        max_temp: 35
+        min_temp: 7
+        temp_step: 1
+        temperature_unit: C
+
+      - name: Gjesterom
+        unique_id: climate_gjesterom
+        slave: 1
+        address: 1301
+        data_type: int16
+        target_temp_register: 1302
+        input_type: input
+        precision: 1
+        scale: 0.01
+        max_temp: 35
+        min_temp: 7
+        temp_step: 1
+        temperature_unit: C
+
+      - name: Entre
+        unique_id: climate_entre
+        slave: 1
+        address: 1201
+        input_type: input
+        data_type: int16
+        target_temp_register: 1202
+        precision: 1
+        scale: 0.01
+        max_temp: 35
+        min_temp: 7
+        temp_step: 1
+        temperature_unit: C
+
+      - name: Bad
+        unique_id: climate_bad
+        slave: 1
+        address: 1401
+        input_type: input
+        data_type: int16
+        target_temp_register: 1402
+        precision: 1
+        scale: 0.01
+        max_temp: 35
+        min_temp: 7
+        temp_step: 1
+        temperature_unit: C
+
+      - name: Soverom
+        unique_id: climate_stue
+        slave: 1
+        address: 1501
+        input_type: input
+        data_type: int16
+        target_temp_register: 1502
+        precision: 1
+        scale: 0.01
+        max_temp: 35
+        min_temp: 7
+        temp_step: 1
+        temperature_unit: C
