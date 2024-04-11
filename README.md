@@ -1,6 +1,7 @@
 # Installasjonsguide for LK IC.2 med Home Assistant
 
 Denne veiledningen beskriver hvordan du integrerer LK IC.2 med Home Assistant ved bruk av en Raspberry Pi og Elfin EW11-modulen. Følg disse trinnene for å sette opp ditt smarte hjem-grensesnitt.
+Du trenger også en strømadapter for Elfin hvor jeg brukte https://www.clasohlson.com/no/Nettadapter-12-V-AC-36-W/p/Pr513228000 
 
 ## Forutsetninger
 - **Raspberry Pi**: Versjon 3 eller 4.
