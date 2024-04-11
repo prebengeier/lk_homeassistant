@@ -32,6 +32,8 @@ Still inn CLI for å kommunisere med følgende spesifikasjoner:
 ### Trinn 5: Sett kommunikasjonsprotokoll
 - **Protokoll**: Modbus
 
+### Trinn 6: oppdatere configration.yaml i Home Assistant
+
 ## Tilleggsressurser
 For mer informasjon om Elfin EW11, se [produktsiden på AliExpress](https://www.aliexpress.com/item/4000533274909.html).
 
